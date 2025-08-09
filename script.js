@@ -64,9 +64,8 @@ function init() {
 
 function loadCake() {
   const loader = new GLTFLoader();
-  // Using a public birthday cake glTF model hosted on the web for demo purposes
-  // Replace the URL below with a local path if you have your own cake.gltf
-  loader.load('https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/BoomBox/glTF-Binary/BoomBox.glb',
+  // Placeholder birthday cake model — replace URL with your own model URL/path if available
+  loader.load('https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/DamagedHelmet/glTF/DamagedHelmet.gltf',
     gltf => {
       cake = gltf.scene;
       cake.scale.set(1.5, 1.5, 1.5);
